@@ -1,0 +1,39 @@
+@font-face {
+    font-family: ConsolaBFont;
+    src: url(../GFX/consolab.ttf);
+}
+@font-face {
+    font-family: ConsolaFont;
+    src: url(../GFX/consola.ttf);
+}
+h1 {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #FAFAFA;
+}
+#topbanner {
+    background-color: #B71C1C;
+    color: #FAFAFA;
+    font-family: ConsolaBFont;
+}
+#logotekst {
+    width: 25%;
+    height: 10%;
+}
+#logo {
+    height:100%;
+    float: left;
+}
+#title {
+    padding:20%;
+    float: left;
+    font-size: 350%;
+    color: #B71C1C;
+    text-shadow:
+   -2px -2px 0 #FAFAFA,  
+    2px -2px 0 #FAFAFA,
+    -2px 2px 0 #FAFAFA,
+     2px 2px 0 #FAFAFA;
+}
